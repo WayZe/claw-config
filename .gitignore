@@ -3,7 +3,10 @@ agents/
 telegram/
 crestodian/
 tui/
-workspace/
+workspace/*
+!workspace/*.md
+!workspace/skills/
+!workspace/memory/
 identity/
 plugin-skills/
 skill-workshop/
