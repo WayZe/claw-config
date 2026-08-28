@@ -3,7 +3,11 @@
     "providers": {
       "glm": {
         "baseUrl": "https://open.bigmodel.cn/api/coding/paas/v4",
-        "apiKey": "be667ead4f6f4f5a93fa77d20ab9a07e.sJxE6MtdCwtI8Okd",
+        "apiKey": {
+          "source": "env",
+          "provider": "env",
+          "id": "GLM_API_KEY"
+        },
         "models": [
           {
             "id": "glm-5.3-flash",
@@ -57,7 +61,11 @@
       },
       "deepseek": {
         "baseUrl": "https://api.deepseek.com",
-        "apiKey": "sk-b739d15582974fc6b8ae31710649b3df",
+        "apiKey": {
+          "source": "env",
+          "provider": "env",
+          "id": "DEEPSEEK_API_KEY"
+        },
         "models": [
           {
             "id": "deepseek-chat",
@@ -101,7 +109,11 @@
     "bind": "lan",
     "auth": {
       "mode": "token",
-      "token": "e3cd5c5263098d3eaeda6553454514863b8a260c9a93807a"
+      "token": {
+        "source": "env",
+        "provider": "env",
+        "id": "GATEWAY_AUTH_TOKEN"
+      }
     },
     "controlUi": {
       "allowedOrigins": [
@@ -111,7 +123,11 @@
   },
   "channels": {
     "telegram": {
-      "botToken": "8428958463:AAG9UnaUXLwznDWT03njJL0RIlI8vZiKYtE",
+      "botToken": {
+        "source": "env",
+        "provider": "env",
+        "id": "TELEGRAM_BOT_TOKEN"
+      },
       "dmPolicy": "open",
       "enabled": true,
       "allowFrom": [
@@ -253,6 +269,19 @@
           "write",
           "edit",
           "apply_patch"
+        ]
+      }
+    }
+  },
+  "secrets": {
+    "providers": {
+      "env": {
+        "source": "env",
+        "allowlist": [
+          "GLM_API_KEY",
+          "DEEPSEEK_API_KEY",
+          "TELEGRAM_BOT_TOKEN",
+          "GATEWAY_AUTH_TOKEN"
         ]
       }
     }

@@ -13,3 +13,4 @@ logs/
 *.log
 *.bak*
 *.last-good
+secrets.env
