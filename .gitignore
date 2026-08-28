@@ -4,6 +4,12 @@ telegram/
 crestodian/
 tui/
 workspace/
+identity/
+plugin-skills/
+skill-workshop/
+workspace-attestations/
+logs/
 *.sqlite*
 *.log
-*.bak
+*.bak*
+*.last-good
