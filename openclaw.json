@@ -1,0 +1,260 @@
+{
+  "models": {
+    "providers": {
+      "glm": {
+        "baseUrl": "https://open.bigmodel.cn/api/coding/paas/v4",
+        "apiKey": "be667ead4f6f4f5a93fa77d20ab9a07e.sJxE6MtdCwtI8Okd",
+        "models": [
+          {
+            "id": "glm-5.3-flash",
+            "name": "GLM-5.3-Flash",
+            "api": "openai-completions",
+            "reasoning": true,
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-5.3",
+            "name": "GLM-5.3",
+            "api": "openai-completions",
+            "reasoning": true,
+            "contextWindow": 131072,
+            "maxTokens": 65536
+          },
+          {
+            "id": "glm-4.6",
+            "name": "GLM-4.6",
+            "api": "openai-completions",
+            "reasoning": true,
+            "contextWindow": 131072,
+            "maxTokens": 65536
+          },
+          {
+            "id": "glm-4.5-air",
+            "name": "GLM-4.5-Air",
+            "api": "openai-completions",
+            "reasoning": true,
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-4.5-flash",
+            "name": "GLM-4.5-Flash",
+            "api": "openai-completions",
+            "reasoning": true,
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-4.5",
+            "name": "GLM-4.5",
+            "api": "openai-completions",
+            "reasoning": true,
+            "contextWindow": 131072,
+            "maxTokens": 32768
+          }
+        ]
+      },
+      "deepseek": {
+        "baseUrl": "https://api.deepseek.com",
+        "apiKey": "sk-b739d15582974fc6b8ae31710649b3df",
+        "models": [
+          {
+            "id": "deepseek-chat",
+            "name": "DeepSeek Chat",
+            "api": "openai-completions",
+            "reasoning": false,
+            "contextWindow": 131072,
+            "maxTokens": 8192
+          },
+          {
+            "id": "deepseek-reasoner",
+            "name": "DeepSeek Reasoner",
+            "api": "openai-completions",
+            "reasoning": true,
+            "contextWindow": 131072,
+            "maxTokens": 65536
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "glm/glm-5.3",
+        "fallbacks": [
+          "deepseek/deepseek-chat"
+        ]
+      },
+      "silentReply": {
+        "group": "disallow"
+      }
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.7.1-2",
+    "lastTouchedAt": "2026-08-28T13:23:53.670Z"
+  },
+  "gateway": {
+    "mode": "local",
+    "bind": "lan",
+    "auth": {
+      "mode": "token",
+      "token": "e3cd5c5263098d3eaeda6553454514863b8a260c9a93807a"
+    },
+    "controlUi": {
+      "allowedOrigins": [
+        "http://89.124.98.153:18789"
+      ]
+    }
+  },
+  "channels": {
+    "telegram": {
+      "botToken": "8428958463:AAG9UnaUXLwznDWT03njJL0RIlI8vZiKYtE",
+      "dmPolicy": "open",
+      "enabled": true,
+      "allowFrom": [
+        "*"
+      ],
+      "groupAllowFrom": [
+        "*"
+      ],
+      "groupPolicy": "open"
+    }
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "github": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-08-26T20:11:34.468Z",
+    "lastRunVersion": "2026.7.1-2",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "mcp": {
+    "servers": {
+      "vkusvill": {
+        "url": "https://mcp.vkusvill.ru/mcp",
+        "transport": "streamable-http"
+      }
+    }
+  },
+  "commands": {
+    "ownerAllowFrom": [
+      "telegram:199635934"
+    ]
+  },
+  "tools": {
+    "deny": [
+      "exec",
+      "write",
+      "edit",
+      "apply_patch"
+    ],
+    "toolsBySender": {
+      "id:199635934": {
+        "alsoAllow": [
+          "exec",
+          "write",
+          "edit",
+          "apply_patch"
+        ]
+      }
+    }
+  }
+}

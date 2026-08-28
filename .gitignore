@@ -1,0 +1,9 @@
+state/
+agents/
+telegram/
+crestodian/
+tui/
+workspace/
+*.sqlite*
+*.log
+*.bak
