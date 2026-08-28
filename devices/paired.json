@@ -1,0 +1,51 @@
+{
+  "894cd2a097c73b5bc70330bc72abf7145254a810626f153f1ae9c8cdb12c8e90": {
+    "deviceId": "894cd2a097c73b5bc70330bc72abf7145254a810626f153f1ae9c8cdb12c8e90",
+    "publicKey": "NXlk6h6ItoA6gz7lKuFl6uz0ewCB1JTseQGrd6S0Qx8",
+    "platform": "MacIntel",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "t2_C0YwwJibhTuPv0VUu3t0ngRCPSfbYqGmGJNSE1Uk",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing",
+          "operator.read",
+          "operator.write"
+        ],
+        "issuer": {
+          "kind": "shared-gateway-auth",
+          "generation": "1Zw1mq6k1tlcoSgI5xixd_8Wu88ucSuRfj83n6MAAJ8"
+        },
+        "createdAtMs": 1787923852087,
+        "rotatedAtMs": 1787923852302,
+        "lastUsedAtMs": 1787923875034
+      }
+    },
+    "createdAtMs": 1787923852081,
+    "approvedAtMs": 1787923852081,
+    "lastSeenAtMs": 1787923875034,
+    "lastSeenReason": "device-token-auth"
+  }
+}
