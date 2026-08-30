@@ -102,7 +102,7 @@
   },
   "meta": {
     "lastTouchedVersion": "2026.7.1-2",
-    "lastTouchedAt": "2026-08-28T13:48:10.000Z"
+    "lastTouchedAt": "2026-08-30T08:09:53.269Z"
   },
   "gateway": {
     "mode": "local",
@@ -297,6 +297,13 @@
           "GATEWAY_AUTH_TOKEN",
           "BRAVE_API_KEY"
         ]
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "brave": {
+        "enabled": true
       }
     }
   }
