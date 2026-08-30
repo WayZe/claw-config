@@ -301,6 +301,9 @@
     }
   },
   "plugins": {
+    "allow": [
+      "brave"
+    ],
     "entries": {
       "brave": {
         "enabled": true
