@@ -17,3 +17,8 @@ logs/
 *.bak*
 *.last-good
 secrets.env
+
+# чувствительные данные: не трекать (токены устройств, входящие медиа, relay-секрет)
+devices/
+media/
+credentials/
