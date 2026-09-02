@@ -102,7 +102,7 @@
   },
   "meta": {
     "lastTouchedVersion": "2026.7.1-2",
-    "lastTouchedAt": "2026-08-30T08:09:53.269Z"
+    "lastTouchedAt": "2026-09-02T06:59:29.802Z"
   },
   "gateway": {
     "mode": "local",
@@ -136,7 +136,8 @@
       "groupAllowFrom": [
         "*"
       ],
-      "groupPolicy": "open"
+      "groupPolicy": "open",
+      "mediaMaxMb": 10
     }
   },
   "skills": {
