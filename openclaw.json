@@ -106,7 +106,10 @@
   },
   "gateway": {
     "mode": "local",
-    "bind": "lan",
+    "bind": "loopback",
+    "tailscale": {
+      "mode": "serve"
+    },
     "auth": {
       "mode": "token",
       "token": {
@@ -117,7 +120,7 @@
     },
     "controlUi": {
       "allowedOrigins": [
-        "http://89.124.98.153:18789"
+        "https://v815382.tail552026.ts.net"
       ]
     }
   },
