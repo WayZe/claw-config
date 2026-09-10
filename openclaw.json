@@ -141,7 +141,10 @@
         "*"
       ],
       "groupPolicy": "open",
-      "mediaMaxMb": 10
+      "mediaMaxMb": 10,
+      "streaming": {
+        "mode": "off"
+      }
     }
   },
   "skills": {
