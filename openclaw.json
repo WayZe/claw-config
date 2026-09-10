@@ -97,7 +97,8 @@
       },
       "silentReply": {
         "group": "disallow"
-      }
+      },
+      "reasoningDefault": "off"
     }
   },
   "meta": {
