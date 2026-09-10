@@ -37,7 +37,9 @@ user-invocable: true
 
 4. **Построй график**: собери Chart.js-конфиг (линейный график: по X — даты, по Y —
    курс за 1 единицу валюты) и закодируй его в URL QuickChart:
-   `https://quickchart.io/chart?c=<URL-encoded Chart.js конфиг>`
+   `https://quickchart.io/chart?w=900&h=500&devicePixelRatio=2&bkg=white&c=<URL-encoded Chart.js конфиг>`
+   (w/h — крупный размер картинки, devicePixelRatio=2 — чёткость при увеличении,
+   bkg=white — чтобы график не сливался с тёмной темой Telegram).
    Пример конфига (перед вставкой в URL — URL-encode, например через encodeURIComponent):
 
    ```json
@@ -47,10 +49,29 @@ user-invocable: true
        "labels": ["01.08", "02.08", "…"],
        "datasets": [{"label": "USD/RUB", "data": [81.2, 81.5], "borderColor": "#2b6cb0", "fill": false}]
      },
-     "options": {"title": {"display": true, "text": "Курс USD к рублю (ЦБ РФ), 30 дней"}}
+     "options": {
+       "title": {"display": true, "text": "Курс USD к рублю (ЦБ РФ), 30 дней", "fontSize": 20},
+       "legend": {"labels": {"fontSize": 14}},
+       "scales": {
+         "yAxes": [{
+           "ticks": {
+             "beginAtZero": false,
+             "fontSize": 13,
+             "suggestedMin": 80.9,
+             "suggestedMax": 83.7
+           }
+         }],
+         "xAxes": [{"ticks": {"fontSize": 12, "maxTicksLimit": 10}}]
+       }
+     }
    }
    ```
 
+   Важно: ось Y не должна начинаться от нуля — иначе при курсе ~80–85 ₽ график
+   выглядит как почти горизонтальная линия. Всегда задавай `suggestedMin` и
+   `suggestedMax` по фактическим минимуму и максимуму ряда с небольшим отступом
+   (±2–3% диапазона; в примере данные 81.2…83.45 → suggestedMin 80.9,
+   suggestedMax 83.7).
    Если URL получается длиннее ~6000 символов (много точек) — переходи на недельную
    агрегацию или сократи период.
 
