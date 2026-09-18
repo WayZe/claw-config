@@ -1,3 +1,2 @@
-2026/09/18-11:58:15.612 3a1f13 Recovering log #8
-2026/09/18-11:58:15.732 3a1f13 Delete type=3 #7
-2026/09/18-11:58:15.732 3a1f13 Delete type=0 #8
+2026/09/18-12:18:19.111 3a373c Creating DB /root/.openclaw/browser/openclaw/user-data/Default/GCM Store since it was missing.
+2026/09/18-12:18:19.188 3a373c Delete type=3 #1

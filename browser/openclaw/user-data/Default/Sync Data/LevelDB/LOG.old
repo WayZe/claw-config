@@ -1,3 +1,2 @@
-2026/09/18-11:57:58.266 3a1f16 Recovering log #11
-2026/09/18-11:57:58.767 3a1f16 Delete type=0 #11
-2026/09/18-11:57:58.768 3a1f16 Delete type=3 #10
+2026/09/18-12:18:10.619 3a3742 Creating DB /root/.openclaw/browser/openclaw/user-data/Default/Sync Data/LevelDB since it was missing.
+2026/09/18-12:18:11.143 3a3742 Delete type=3 #1

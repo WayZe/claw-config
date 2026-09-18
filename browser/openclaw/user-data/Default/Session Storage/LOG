@@ -1,5 +1,2 @@
-2026/09/18-12:01:05.156 3a232d Recovering log #21
-2026/09/18-12:01:05.172 3a232d Level-0 table #23: started
-2026/09/18-12:01:05.203 3a232d Level-0 table #23: 0 bytes OK
-2026/09/18-12:01:05.620 3a232d Delete type=3 #19
-2026/09/18-12:01:05.621 3a232d Delete type=0 #21
+2026/09/18-12:18:29.336 3a3824 Creating DB /root/.openclaw/browser/openclaw/user-data/Default/Session Storage since it was missing.
+2026/09/18-12:18:29.630 3a3824 Delete type=3 #1

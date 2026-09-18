@@ -1,3 +1,2 @@
-2026/09/18-11:58:06.517 3a1f13 Recovering log #7
-2026/09/18-11:58:06.713 3a1f13 Delete type=3 #6
-2026/09/18-11:58:06.713 3a1f13 Delete type=0 #7
+2026/09/18-12:18:15.008 3a3748 Creating DB /root/.openclaw/browser/openclaw/user-data/Default/Extension State since it was missing.
+2026/09/18-12:18:15.180 3a3748 Delete type=3 #1

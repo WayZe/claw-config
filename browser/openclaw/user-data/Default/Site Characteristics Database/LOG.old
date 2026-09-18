@@ -1,3 +1,2 @@
-2026/09/18-11:57:58.920 3a1f31 Recovering log #10
-2026/09/18-11:57:59.085 3a1f31 Delete type=0 #10
-2026/09/18-11:57:59.086 3a1f31 Delete type=3 #9
+2026/09/18-12:18:11.278 3a3748 Creating DB /root/.openclaw/browser/openclaw/user-data/Default/Site Characteristics Database since it was missing.
+2026/09/18-12:18:11.569 3a3748 Delete type=3 #1
