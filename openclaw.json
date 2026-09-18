@@ -103,7 +103,10 @@
   },
   "browser": {
     "enabled": true,
-    "noSandbox": true
+    "noSandbox": true,
+    "localLaunchTimeoutMs": 120000,
+    "localCdpReadyTimeoutMs": 60000,
+    "actionTimeoutMs": 120000
   },
   "meta": {
     "lastTouchedVersion": "2026.7.1-2",
