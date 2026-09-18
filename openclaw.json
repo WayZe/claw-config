@@ -101,6 +101,10 @@
       "reasoningDefault": "off"
     }
   },
+  "browser": {
+    "enabled": true,
+    "noSandbox": true
+  },
   "meta": {
     "lastTouchedVersion": "2026.7.1-2",
     "lastTouchedAt": "2026-09-02T06:59:29.802Z"
@@ -311,6 +315,9 @@
   "plugins": {
     "entries": {
       "brave": {
+        "enabled": true
+      },
+      "browser": {
         "enabled": true
       }
     }
