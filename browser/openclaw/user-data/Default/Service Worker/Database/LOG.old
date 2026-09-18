@@ -1,2 +1,5 @@
-2026/09/18-12:18:14.784 3a373d Creating DB /root/.openclaw/browser/openclaw/user-data/Default/Service Worker/Database since it was missing.
-2026/09/18-12:18:14.899 3a373d Delete type=3 #1
+2026/09/18-12:18:26.669 3a37f6 Recovering log #3
+2026/09/18-12:18:26.683 3a37f6 Level-0 table #5: started
+2026/09/18-12:18:26.801 3a37f6 Level-0 table #5: 713 bytes OK
+2026/09/18-12:18:26.942 3a37f6 Delete type=3 #2
+2026/09/18-12:18:26.942 3a37f6 Delete type=0 #3

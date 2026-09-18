@@ -1,2 +1,5 @@
-2026/09/18-12:18:14.525 3a373d Creating DB /root/.openclaw/browser/openclaw/user-data/Default/shared_proto_db since it was missing.
-2026/09/18-12:18:14.600 3a373d Delete type=3 #1
+2026/09/18-12:18:29.565 3a37f5 Recovering log #3
+2026/09/18-12:18:29.567 3a37f5 Level-0 table #5: started
+2026/09/18-12:18:29.594 3a37f5 Level-0 table #5: 3326 bytes OK
+2026/09/18-12:18:29.618 3a37f5 Delete type=3 #2
+2026/09/18-12:18:29.618 3a37f5 Delete type=0 #3

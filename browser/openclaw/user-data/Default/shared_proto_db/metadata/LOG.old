@@ -1,2 +1,5 @@
-2026/09/18-12:18:14.440 3a373d Creating DB /root/.openclaw/browser/openclaw/user-data/Default/shared_proto_db/metadata since it was missing.
-2026/09/18-12:18:14.525 3a373d Delete type=3 #1
+2026/09/18-12:18:29.337 3a37f5 Recovering log #3
+2026/09/18-12:18:29.340 3a37f5 Level-0 table #5: started
+2026/09/18-12:18:29.524 3a37f5 Level-0 table #5: 375 bytes OK
+2026/09/18-12:18:29.549 3a37f5 Delete type=3 #2
+2026/09/18-12:18:29.549 3a37f5 Delete type=0 #3

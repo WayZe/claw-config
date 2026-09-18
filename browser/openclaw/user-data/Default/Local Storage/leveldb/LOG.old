@@ -1,2 +1,5 @@
-2026/09/18-12:18:11.435 3a375b Creating DB /root/.openclaw/browser/openclaw/user-data/Default/Local Storage/leveldb since it was missing.
-2026/09/18-12:18:11.627 3a375b Delete type=3 #1
+2026/09/18-12:18:26.844 3a3824 Recovering log #3
+2026/09/18-12:18:26.870 3a3824 Level-0 table #5: started
+2026/09/18-12:18:26.935 3a3824 Level-0 table #5: 120 bytes OK
+2026/09/18-12:18:27.060 3a3824 Delete type=3 #2
+2026/09/18-12:18:27.065 3a3824 Delete type=0 #3
