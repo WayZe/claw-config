@@ -102,7 +102,7 @@
     }
   },
   "browser": {
-    "enabled": true,
+    "enabled": false,
     "noSandbox": true,
     "localLaunchTimeoutMs": 120000,
     "localCdpReadyTimeoutMs": 60000,
@@ -321,7 +321,7 @@
         "enabled": true
       },
       "browser": {
-        "enabled": true
+        "enabled": false
       }
     }
   }
