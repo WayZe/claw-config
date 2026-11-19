@@ -68,20 +68,20 @@
         },
         "models": [
           {
-            "id": "deepseek-chat",
-            "name": "DeepSeek Chat",
-            "api": "openai-completions",
-            "reasoning": false,
-            "contextWindow": 131072,
-            "maxTokens": 8192
-          },
-          {
-            "id": "deepseek-reasoner",
-            "name": "DeepSeek Reasoner",
+            "id": "deepseek-flash",
+            "name": "DeepSeek Flash",
             "api": "openai-completions",
             "reasoning": true,
-            "contextWindow": 131072,
-            "maxTokens": 65536
+            "contextWindow": 1048576,
+            "maxTokens": 393216
+          },
+          {
+            "id": "deepseek-v4-pro",
+            "name": "DeepSeek V4 Pro",
+            "api": "openai-completions",
+            "reasoning": true,
+            "contextWindow": 1048576,
+            "maxTokens": 393216
           }
         ]
       }
@@ -90,9 +90,9 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "glm/glm-5.3",
+        "primary": "deepseek/deepseek-flash",
         "fallbacks": [
-          "deepseek/deepseek-chat"
+          "deepseek/deepseek-v4-pro"
         ]
       },
       "silentReply": {
